@@ -1,6 +1,7 @@
 package com.example.StartRest.RestKenanProject.Model;
 
 public class AirPortSystem {
+
     private String name;
     private Integer idPilot;
     private Double age;
@@ -13,19 +14,27 @@ public class AirPortSystem {
         this.PlaneId = PlaneId;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setIdPilot(Integer idPilot) {
+        this.idPilot = idPilot;
+    }
+
+    public void setAge(Double age) {
+        this.age = age;
+    }
+
+    public void setPlaneId(Integer planeId) {
+        PlaneId = planeId;
+    }
+
     public String getName() {
         return name;
     }
 
     public Integer getIdPilot() {
         return idPilot;
-    }
-
-    public Double getAge() {
-        return age;
-    }
-
-    public Integer getPlaneId() {
-        return PlaneId;
     }
 }
